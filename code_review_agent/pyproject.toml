@@ -1,0 +1,19 @@
+[project]
+name = "code-review-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "shlee1106", email = "hee5254007@naver.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "google-antigravity==0.1.7",
+]
+
+[project.scripts]
+code-review-agent = "code_review_agent:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
